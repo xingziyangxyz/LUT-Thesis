@@ -1,0 +1,72 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[雷亚国\ 等(2015)雷亚国, 贾峰, 周昕, and
+  林京]{leiJiYuShenDuXueXiLiLunDeJiJieZhuangBeiDaShuJuJianKangJianCeFangFa2015}
+雷亚国, 贾峰, 周昕, 等.
+\newblock
+  {基于深度学习理论的机械装备大数据健康监测方法}\allowbreak[J].
+\newblock 机械工程学报, 2015, 51\allowbreak (21): 49-56.
+
+\bibitem[屈梁生(2007)]{quJiJieGuZhangDeQuanXiZhenDuanYuanLi2007}
+屈梁生.
+\newblock 机械故障的全息诊断原理\allowbreak[M].
+\newblock {北京}: {科学出版社}, 2007.
+
+\bibitem[张勇\ 等(2021)张勇, 杨康, 郝国生, and
+  巩敦卫]{zhangyongJiYuXiangSiLiShiXinXiQianYiXueXiDeJinHuaYouHuaKuangJia2021}
+张勇, 杨康, 郝国生, 等.
+\newblock
+  基于相似历史信息迁移学习的进化优化框架\allowbreak[J].
+\newblock 自动化学报, 2021, 47\allowbreak (3): 652-665.
+
+\bibitem[Liang et~al.(2019)Liang, Deng, Wu, Yang, Zhu, and
+  Zhang]{liangCompoundFaultDiagnosis2019}
+Liang P, Deng C, Wu J, et~al.
+\newblock Compound {{Fault Diagnosis}} of {{Gearboxes}} via {{Multi-label
+  Convolutional Neural Network}} and {{Wavelet Transform}}\allowbreak[J].
+\newblock Computers in Industry, 2019, 113: 103132.
+
+\bibitem[侯澍旻(2006)]{houShiXuShuJuWaJueJiQiZaiGuZhangZhenDuanZhongDeYingYongYanJiu2006}
+侯澍旻.
+\newblock
+  {时序数据挖掘及其在故障诊断中的应用研究}\allowbreak[D].
+\newblock {武汉}: 武汉科技大学, 2006.
+
+\bibitem[Wei et~al.(2019)Wei, Wang, Heyns, and
+  Zuo]{weiConvolutionalNeuralNetworks2019}
+Wei D, Wang K, Heyns S, et~al.
+\newblock Convolutional {{Neural Networks}} for {{Fault Diagnosis Using
+  Rotating Speed Normalized Vibration}}\allowbreak[M].
+\newblock In: Advances in {{Condition Monitoring}} of {{Machinery}} in
+  {{Non-Stationary Operations}}: volume~15.
+\newblock {Cham}: {Springer International Publishing}, 2019: 67-76.
+
+\bibitem[Saito et~al.(2018)Saito, Watanabe, Ushiku, and
+  Harada]{saitoMaximumClassifierDiscrepancy2018}
+Saito K, Watanabe K, Ushiku Y, et~al.
+\newblock Maximum {{Classifier Discrepancy}} for {{Unsupervised Domain
+  Adaptation}}\allowbreak[C].
+\newblock In: 2018 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and
+  {{Pattern Recognition}}.
+\newblock {Salt Lake City, UT, USA}: {IEEE}, 2018: 3723-3732.
+
+\bibitem[Shi et~al.(2022)Shi, Deng, Ding, Zhang, Xu, and
+  Li]{shiMultisourceDomainFactorization2022}
+Shi Y, Deng A, Ding X, et~al.
+\newblock Multisource domain factorization network for cross-domain fault
+  diagnosis of rotating machinery: {{An}} unsupervised multisource domain
+  adaptation method\allowbreak[J].
+\newblock Mechanical Systems and Signal Processing, 2022, 164: 108219.
+
+\end{thebibliography}

@@ -1,0 +1,77 @@
+%!TEX encoding = UTF-8 Unicode
+%!TEX program = xelatex
+
+\documentclass[doctor]{thesis-lut}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage{algorithmicx,algpseudocode}
+\usepackage{float}
+
+% 学校代码
+\lutcode{10731}
+% 学校名称
+\lutname{兰州理工大学}
+\enlutname{Lanzhou University of Technology}
+% 中图分类号
+\clc{TP18, TP165}         
+% 密级       
+\secrettext{公开}           
+
+% 标题
+\title{基于卷积神经网络的滚动轴承故障辨识方法研究}
+\entitle{Research on rolling bearing fault identification method based on convolutional neural network}
+% 作者
+\author{邢自扬}
+\enauthor{XING Ziyang}
+% 学号
+\authorid{192080203015}      
+% 学院
+\college{机电工程学院}
+% 专业
+\major{机械设计及理论} 
+\enmajor{Mechanical Design and Theory}
+%学士学位获得学校，年份
+\enbachelor{B.E.(Lanzhou University of Technology)2017}
+% \enmaster{M.S.(Lanzhou University of Technology)2022}
+\endoctor{Master of Engineering }
+% 研究方向
+\workon{旋转机械故障诊断}
+% 导师
+\supervisor{赵荣珍{\quad}教授}
+\ensupervisor{Professor Zhao Rongzhen}
+% 论文提交、答辩日期
+\submitdate{2022 年 3 月 16 日}
+\defensedate{2022 年 6 月 4 日 }
+\endate{June, 2022}
+% 答辩委员会主席
+\chair{待定}
+
+\begin{document}
+% 封面、原创性声明
+\maketitle
+% 目录
+\tableofcontents
+% 摘要
+\input{chapters/abstract}
+% 插图附表索引
+\listoffigures
+\listoftables
+% 正文章节
+\mainmatter
+\input{chapters/ch1}
+\input{chapters/ch2}
+\input{chapters/summary}
+
+\bibliography{references}
+\backmatter
+\input{chapters/acknowledgements}
+
+
+\appendix
+\input{chapters/publications}
+\input{chapters/projects}
+
+
+
+
+\end{document}
